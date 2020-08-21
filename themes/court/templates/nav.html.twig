@@ -1,0 +1,37 @@
+{%
+set m =
+[
+{text: '首页', link: ''},
+{text: '法院概况', link: 'i.php/list1'},
+{text: '新闻中心', link: 'i.php/list'},
+{text: '图片频道', link: '#'},
+{text: '审务公开', link: '#'},
+{text: '队伍建设', link: '#'},
+{text: '视频', link: '#'},
+{text: '法院文件', link: '#'},
+{text: '法庭传真', link: '#'},
+{text: '法苑心声', link: '#'},
+{text: '法律法规', link: '#'},
+{text: '简报信息', link: '#'},
+]
+%}
+
+    <nav id="nav-menu" class="bg-primary border-top-red">
+      <ul class="nav p-2 justify-content-between">
+{% for i in m %}
+        <li class="nav-item rounded"><a class="px-2 nav-link text-light" href="{{ root }}/{{ i.link }}">{{ i.text }}</a></li>
+{% endfor %}
+      </ul>
+    </nav>
+
+    <nav class="navbar">
+      <div id="nav-date" class="navbar-nav">
+        2020年7月16日 星期四
+      </div>
+      <div class="form-inline" id="search-bar">
+        <input class="form-control form-control-sm mr-1" type="text">
+        </input>
+        <input class="btn btn-sm btn-danger" type="submit" value="搜索">
+        </input>
+      </div>
+    </nav>

@@ -1,0 +1,28 @@
+      <div class="my-5 text-align-center text-black-50">
+        <div>
+          <span>
+            XXXXXXXX主办　XXXXXXXX承办　版权所有：XXXXXX 鄂ICP备00000000号-0　鄂公网安备 00000000000000号
+          </span>
+        </div>
+        <div>
+          <span>
+            电话：0000-0000000　网站建设及维护：0000-0000000　邮箱：abc@a.com　网站标识码：0000000000
+          </span>
+        </div>
+{% if logged_in %}
+{% set login_link, login_text = 'admin/content', '后台管理' %}
+{% else %}
+{% set login_link, login_text = 'user/login', '登录后台' %}
+{% endif %}
+{%
+  set links = [
+    {href: '#', text: '旧版入口'},
+    {href: login_link, text: login_text},
+]
+%}
+          <div class="">
+{% for i in links %}
+            <a class="text-black-50" href="{{ i.href }}">{{ i.text }}</a>    
+{% endfor %}
+          </div>
+      </div>

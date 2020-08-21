@@ -1,0 +1,18 @@
+<?php
+function admin_form_node_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+    unset($form['options']);
+    unset($form['author']);
+    //unset($form['revision_information']);
+    //unset($form['revision']);
+    //unset($form['changed']);
+    //unset($form['advanced']);
+}
+
+function admin_file_upload_help(&$variables){
+	unset($variables['description']);
+}
+
+/*
+function admin_text_format_wrapper($variables) {
+}
+*/

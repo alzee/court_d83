@@ -1,0 +1,9 @@
+{% extends "html.html.twig" %}
+
+{% block main %}
+  {{ include('breadcrumb.html.twig') }}
+  <div class="bg-white p-5 mb-1">
+    {{ include('ul1.html.twig', {count: 28}) }}
+  </div>
+  {{ include('pager.html.twig') }}
+{% endblock %}

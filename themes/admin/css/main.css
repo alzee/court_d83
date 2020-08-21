@@ -1,0 +1,70 @@
+fieldset#edit-field-tags--wrapper .form-item {
+	display: inline-block;
+	width: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#edit-uid--description {
+	display: none;
+}
+
+#edit-title-wrapper,
+#edit-uid-wrapper,
+#edit-sticky-wrapper,
+#edit-field-laiyuan-wrapper,
+#edit-field-zuozhe-wrapper{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#edit-field-tags-wrapper input,
+#edit-sticky-wrapper input {
+	vertical-align: middle;
+}
+
+#edit-field-laiyuan-wrapper label,
+#edit-uid-wrapper label,
+#edit-field-zuozhe-wrapper label {
+	display: inline-block;
+}
+
+/*
+#edit-uid-wrapper label:after {
+	content: "：";
+	margin-left: -1px;
+}
+*/
+
+#edit-field-image-wrapper .form-managed-file {
+}
+
+#edit-field-image-wrapper .form-item{
+	display: flex;
+	align-items: center;
+}
+
+#edit-sticky-wrapper label {
+	font-weight: bold;
+}
+
+#edit-field-tags-wrapper .fieldset-wrapper{
+	border: #656565;
+	border-style: dashed;
+	border-width: 1px;
+	margin-bottom: 5px
+}
+
+#edit-field-image-wrapper {
+    /*
+	border-top: #656565;
+	border-top-style: dashed;
+	border-width: 1px;
+    */
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+#edit-body-0-format {
+    display: none;
+}

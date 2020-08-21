@@ -1,0 +1,23 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/z.css: {}
+
+swiper-css:
+  version: VERSION
+  css:
+    component:
+      css/swiper-bundle.min.css: {}
+
+swiper-js:
+  version: VERSION
+  js:
+    js/swiper-bundle.min.js: {}
+    js/initSwiper.js: {}
+
+home-titles-js:
+  version: VERSION
+  js:
+    js/homeTitles.js: {attributes: {defer: true}}

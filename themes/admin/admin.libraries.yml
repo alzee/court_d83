@@ -1,0 +1,24 @@
+css:
+  version: VERSION
+  css:
+    theme:
+      css/main.css: {}
+
+jquery1:
+  header: true
+  version: VERSION
+  js:
+    js/jquery1.min.js: {}
+
+jquery2:
+  header: true
+  version: VERSION
+  js:
+    js/jquery2.min.js: {}
+
+jquery:
+  header: true
+  version: VERSION
+  js:
+    js/jquery.min.js: {}
+

@@ -1,0 +1,7 @@
+{% extends "html.html.twig" %}
+
+{% block main %}
+  {{ include('breadcrumb.html.twig') }}
+  {{ include('card.html.twig', {count: 10}) }}
+  {{ include('pager.html.twig') }}
+{% endblock %}
