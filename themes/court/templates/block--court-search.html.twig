@@ -33,7 +33,7 @@
     {{ now | date('Y年m月d日') }}
     星期{{ week[now|date("w")] }}
   </div>
-  <form action="/court/index.php/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
     <div class="form-inline" id="search-bar">
       <input data-drupal-selector="edit-keys" class="form-control form-control-sm mr-1" name="keys" type="text">
       </input>
