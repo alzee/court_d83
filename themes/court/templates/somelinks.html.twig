@@ -29,8 +29,13 @@
     {href: login_link, text: login_text},
 ]
 %}
-          <div class="row mx-0 p-3 news-block">
-{% for i in links %}
-            <a class="col-auto text-black-50" href="{{ i.href }}">{{ i.text }}</a>
-{% endfor %}
-          </div>
+<div class="row mx-0 p-3 news-block">
+  {% set i = 1 %}
+  {% for link in links %}
+  <a class="col text-black-50" href="{{ link.href }}">{{ link.text }}</a>
+  {% if i == (links|length) / 2 %}
+  <div class="w-100"></div>
+  {% endif %}
+  {% set i = i + 1 %}
+  {% endfor %}
+</div>
