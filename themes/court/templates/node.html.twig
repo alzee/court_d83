@@ -71,7 +71,10 @@
  *
  * @ingroup themeable
  */
+
 #}
+
+
 <article{{ attributes }}>
 
   {{ title_prefix }}
@@ -99,6 +102,7 @@
   {% endif %}
 
   <div{{ content_attributes }}>
+    {{ content.field_shipin }}
     {{ content.body }}
     <div class="text-secondary my-2 row justify-content-between">
         {{ content.field_fujian }}

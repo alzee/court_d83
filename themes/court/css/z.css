@@ -95,7 +95,7 @@ li.list-group-item a:hover {
     font-size: 12px;
 }
 
-#block-views-block-shipin-block-1 a:before {
+#block-views-block-shipinliebiao-block-1 a:before {
     content: "";
 }
 
@@ -214,7 +214,7 @@ img {
 	text-overflow: ellipsis;
 }
 
-#block-views-block-shipin-block-1 li a {
+#block-views-block-shipinliebiao-block-1 li a {
     vertical-align: middle !important;
 }
 
@@ -231,6 +231,8 @@ img {
 #yewupingtai img {
     margin-top: .25rem;
 }
+
+#block-shouyeshipinqukuaixiafangtupian p,
 #yewupingtai p{
     margin-bottom: 0;
 }
@@ -244,24 +246,24 @@ img {
 
 #block-fayuangaishu p{
     text-align: justify;
-    height: 192px;
+    height: 206px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-#block-shipin video{
-    width: 100%;
-    height: auto;
+#block-views-block-shipin-block-1 video {
+    width: 100% !important;
+    height: auto !important;
 }
 
 #block-shouyeshipinqukuaixiafangtupian img {
     width: 100%;
-    height: 142px;
+    height: 136px;
 }
 
 #block-yewupingtaitupian img{
   width: 100%;
-  height: 122px;
+  height: 114px;
 }
 
 #slider2 figcaption {
@@ -278,7 +280,8 @@ img {
 	top: 37%;
 }
 
-#block-views-block-shipin-block-1 li {
+#block-views-block-shipin-block-1 li,
+#block-views-block-shipinliebiao-block-1 li {
 	padding: 0.75rem .3rem;
 }
 
@@ -300,5 +303,5 @@ section#dangjian a:hover {
 }
 
 #slider .swiper-slide img{
-    height: 416px;
+    height: 401px;
 }
