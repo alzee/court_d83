@@ -39,6 +39,7 @@ fieldset#edit-field-tags--wrapper .form-item {
 #edit-field-image-wrapper .form-managed-file {
 }
 
+#edit-field-fujian-wrapper .form-item,
 #edit-field-image-wrapper .form-item{
 	display: flex;
 	align-items: center;
