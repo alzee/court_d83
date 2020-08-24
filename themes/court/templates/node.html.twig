@@ -104,11 +104,15 @@
   <div{{ content_attributes }}>
     {{ content.field_shipin }}
     {{ content.body }}
-    <div class="text-secondary my-2 row justify-content-between">
-        {{ content.field_fujian }}
-      <span>
-        责任编辑：{{ author_name }}
-      </span>
+    <div class="text-secondary my-2 row">
+        <div class="col">
+          {{ content.field_fujian }}
+        </div>
+        <div class="col text-align-right">
+          <span>
+            责任编辑：{{ author_name }}
+          </span>
+      </div>
     </div>
   </div>
 </article>

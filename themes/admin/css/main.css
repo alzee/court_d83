@@ -39,6 +39,7 @@ fieldset#edit-field-tags--wrapper .form-item {
 #edit-field-image-wrapper .form-managed-file {
 }
 
+#edit-field-shipin-wrapper .form-item,
 #edit-field-fujian-wrapper .form-item,
 #edit-field-image-wrapper .form-item{
 	display: flex;
@@ -56,6 +57,7 @@ fieldset#edit-field-tags--wrapper .form-item {
 	margin-bottom: 5px
 }
 
+#edit-field-shipin-wrapper,
 #edit-field-image-wrapper {
     /*
 	border-top: #656565;
