@@ -5,6 +5,11 @@ global-css:
       css/bootstrap.min.css: {}
       css/z.css: {}
 
+global-js:
+  version: VERSION
+  js:
+    js/z.js: {}
+
 swiper-css:
   version: VERSION
   css:
