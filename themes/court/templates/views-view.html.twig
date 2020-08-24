@@ -57,7 +57,7 @@
       </div>
     </div>
   </header>
-  {% elseif header %}
+  {% elseif 'dangjian-block' in css_class %}
   <header class="row justify-content-between border-bottom px-4">
     <span><h4 class="dangjian-title pl-2">{{ view.title }}</h4></span>
     <span><a class="dangjian-more text-secondary" href="{{ header }}">更多></a></span>

@@ -352,3 +352,7 @@ section#dangjian a:hover {
 #user-login-form div {
   margin-bottom: 5px;
 }
+
+#block-tiaofu img {
+    width: 100%;
+}
