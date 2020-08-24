@@ -339,3 +339,16 @@ section#dangjian a:hover {
   font-size: 3.8em;
   color: #bf0000;
 }
+
+#user-login-form {
+  margin: auto;
+  width: 600px;
+}
+
+#user-login-form input {
+  width: 100%;
+}
+
+#user-login-form div {
+  margin-bottom: 5px;
+}

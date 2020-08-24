@@ -19,3 +19,11 @@ function addFavorite() {
         document.querySelector('main').insertBefore(a.cloneNode(true), t);
     }
 })();
+
+;(function (){
+    var i = document.getElementById('user-login-form');
+    if(i){
+    document.getElementById('edit-name').placeholder= "请输入账号";
+    document.getElementById('edit-pass').placeholder= "请输入密码";
+    }
+})();
