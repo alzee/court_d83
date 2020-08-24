@@ -246,7 +246,7 @@ img {
 
 #block-fayuangaishu p{
     text-align: justify;
-    height: 206px;
+    height: 194px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -355,4 +355,11 @@ section#dangjian a:hover {
 
 #block-tiaofu img {
     width: 100%;
+}
+
+#fayuangaishu h3 {
+    color: #4da6ff;
+    margin: 1em 0;
+    border-left: #4da6ff 5px solid;
+    padding: 0 10px
 }
