@@ -305,3 +305,21 @@ section#dangjian a:hover {
 #slider .swiper-slide img{
     height: 401px;
 }
+
+.dangjian-title {
+    border-left: #4da6ff 3px solid;
+    color: #4da6ff;
+}
+
+.dangjian-more {
+    font-size: .8em;
+}
+
+.home-title-text {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.title-text-no-bg {
+    color: #1F497d;
+}
