@@ -1,7 +1,10 @@
 ;(function(){
-    var i = document.getElementById('block-jiubanrukou').firstElementChild.firstElementChild;
-    i.firstElementChild.href="#";
-    i.addEventListener('click', addFavorite);
+    var d = document.getElementById('block-jiubanrukou');
+    if (d) {
+        var i = d.firstElementChild.firstElementChild;
+        i.firstElementChild.href="#";
+        i.addEventListener('click', addFavorite);
+    }
 })();
 
 function addFavorite() {

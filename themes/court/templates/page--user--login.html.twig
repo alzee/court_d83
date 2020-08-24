@@ -45,46 +45,14 @@
  * @ingroup themeable
  */
 #}
-<div class="layout-container">
-
-  <header role="banner">
-    {{ page.header }}
-  </header>
-
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-
-  </main>
-
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-
-</div>{# /.layout-container #}
+<div class="container mt-5 pt-5">
+<form class="form-signin">
+<div class="row align-items-center justify-content-center mb-4">
+  <img class="pr-3" src="/sites/default/files/fahui.png" id="fahui">
+  <h1 class="" id="logo">郧西县人民法院</h1>
+  </div>
+  <input type="text" id="" class="form-control mb-2" placeholder="账号" required="" autofocus="">
+  <input type="password" id="inputPassword" class="form-control mb-4" placeholder="密码" required="">
+  <button class="btn btn-lg btn-primary btn-block" type="submit">登 录</button>
+</form>
+</div>
