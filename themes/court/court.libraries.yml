@@ -9,12 +9,12 @@ swiper-css:
   version: VERSION
   css:
     component:
-      css/swiper-bundle.min.css: {}
+      css/swiper.min.css: {}
 
 swiper-js:
   version: VERSION
   js:
-    js/swiper-bundle.min.js: {}
+    js/swiper.min.js: {}
     js/initSwiper.js: {}
 
 home-titles-js:

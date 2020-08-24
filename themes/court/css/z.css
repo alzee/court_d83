@@ -8,7 +8,7 @@ nav#nav-menu {
 }
 
 .block-title {
-    background: linear-gradient(90deg, rgba(140,216,255,1) 0%, rgb(187 242 255) 75%);
+    background: linear-gradient(90deg, rgba(140,216,255,1) 0%, rgba(187,242,255,1) 75%);
     font-size: 1.4em;
     padding: 0.3em 0;
 }
@@ -197,7 +197,7 @@ img {
 
 #slider figcaption {
     bottom: 0;
-    background-color: rgb(78 198 255 / .6);
+    background-color: rgba(78,198,255,.6);
     height: 3em;
 }
 
