@@ -323,3 +323,7 @@ section#dangjian a:hover {
 .title-text-no-bg {
     color: #1F497d;
 }
+
+#node-preview-form-select {
+    display: none;
+}
