@@ -46,16 +46,24 @@
  */
 #}
 <div class="container mt-5 pt-5 text-align-center">
-<div class="row mt-5 pt-5 align-items-center justify-content-center mb-4">
-  <img class="pr-3" src="/sites/default/files/fahui.png" id="fahui">
-  <h1 class="" id="logo">郧西县人民法院</h1>
+<div class="row mt-5 pt-5 align-items-center justify-content-center mb-4 site-brand">
+  <img src="/sites/default/files/fahui.png" id="fahui">
+  <a href="/"><h1 class="font-weight-bold" id="logo">郧西县人民法院</h1></a>
 </div>
-{{ page.content }}
 {#
-<form class="form-signin" action="/user/login" method="post" id="user-login-form">
-  <input type="text" name="name" class="form-control mb-2" id="edit-name" placeholder="账号" required="" autofocus="">
-  <input type="password" name="pass" id="edit-pass" class="form-control mb-4" placeholder="密码" required="">
-  <button class="btn btn-lg btn-primary btn-block" type="submit" id="edit-submit" name="op">登 录</button>
+<form class="form-signin user-login-form" data-drupal-selector="user-login-form" action="/user/login" method="post" id="user-login-form">
+  <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+    <input data-drupal-selector="edit-name" type="text" name="name" class="form-control mb-2" id="edit-name" placeholder="账号" required="" autofocus="">
+  </div>
+  <div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass">
+    <input data-drupal-selector="edit-pass" type="password" name="pass" id="edit-pass" class="form-control mb-4" placeholder="密码" required="">
+  </div>
+  <input data-drupal-selector="form-hbujl4vnic935tuuoqmu9dtduab2m4hc-cjlocfsu0o" type="hidden" name="form_build_id" value="form-hBUJL4vNiC935tuuOqMu9dtduAb2M4HC-cJloCfsU0o">
+  <input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form">
+  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+    <input data-drupal-selector="edit-submit" class="btn btn-lg btn-primary btn-block button js-form-submit form-submit" type="submit" id="edit-submit" name="op" value="登录">
+  </div>
 </form>
 #}
+{{ page.content }}
 </div>
