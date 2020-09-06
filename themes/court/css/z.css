@@ -363,3 +363,11 @@ section#dangjian a:hover {
     border-left: #4da6ff 5px solid;
     padding: 0 10px
 }
+#block-yejiao-2 {
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 0 !important;
+}
+#block-yejiao-2 p {
+    margin: 0;
+}
