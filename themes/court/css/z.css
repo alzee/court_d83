@@ -16,7 +16,24 @@ nav#nav-menu {
 li.list-group-item {
     text-overflow: ellipsis;
     white-space: nowrap;
+    /*
     overflow: hidden;
+    */
+}
+#home .list-group {
+    padding-left: 2.5em;
+}
+#home .list-group-item {
+    display: list-item;
+    padding-left: 0;
+}
+#block-views-block-shipin-block-1 .list-group,
+#block-views-block-shipinliebiao-block-1  .list-group{
+    padding-left: 0;
+}
+#block-views-block-zhuanfa-block-1 li,
+#block-views-block-xinwenzhongxin-block-1  li{
+    list-style-type: square;
 }
 
 .news-block{
@@ -89,14 +106,12 @@ li.list-group-item a:hover {
 }
 
 .col li a:before {
+    /*
 	content: "•";
 	margin-right: 5px;
 	color: #7b7b7b;
     font-size: 12px;
-}
-
-#block-views-block-shipinliebiao-block-1 a:before {
-    content: "";
+    */
 }
 
 .col li a {
@@ -280,8 +295,9 @@ img {
 	top: 37%;
 }
 
-#block-views-block-shipin-block-1 li,
-#block-views-block-shipinliebiao-block-1 li {
+#block-views-block-shipin-block-1 li.list-group-item,
+#block-views-block-shipinliebiao-block-1 li.list-group-item {
+    display: block;
 	padding: 0.75rem .3rem;
 }
 
