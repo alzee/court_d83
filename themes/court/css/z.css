@@ -306,13 +306,18 @@ section#dangjian a:hover {
     height: 401px;
 }
 
-.dangjian-title {
-    border-left: #4da6ff 3px solid;
-    color: #4da6ff;
+header.dangjian,
+.dangjian-more a{
+    color: red;
+}
+
+header.dangjian svg {
+  transform: scaleX(0.6);
 }
 
 .dangjian-more {
     font-size: .8em;
+    background-color: rgba(255,176,176,50%);
 }
 
 .home-title-text {
