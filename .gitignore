@@ -18,4 +18,5 @@ sites/
 update.php
 vendor/
 node_modules/
+downloads/
 web.config
