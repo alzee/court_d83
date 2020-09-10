@@ -17,9 +17,7 @@
         "drupal/media_entity": "^1.8",
         "drupal/entity": "1.0-beta1",
         "drupal/media_entity_video": "^1.0@beta",
-        "drupal/views_slideshow": "4.5",
-        "drupal/slick": "^1.0",
-        "drupal/slick_views": "^1.0"
+        "drupal/permissions_by_term": "^1.44"
     },
     "replace": {
         "drupal/core": "~8.3"
