@@ -20,6 +20,14 @@ li.list-group-item {
     overflow: hidden;
     */
 }
+.lanmu-page li.list-group-item>a {
+    max-width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
 #home .list-group {
     padding-left: 2.5em;
 }
@@ -384,14 +392,32 @@ header.dangjian svg {
     border-left: #4da6ff 5px solid;
     padding: 0 10px
 }
-#block-yejiao-2 {
+#footer {
+    font-size: .8em;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+}
+.links {
+    font-size: .7em;
+}
+.yewupingtai1 {
+    font-size: .9em;
+    height: 2.9em;
+}
+.yewupingtai2 {
+    font-size: .7em;
+    height: 3em;
+}
+/*
+#block-yejiao {
     text-align: center;
     color: rgba(0,0,0,.5);
     margin-bottom: 0 !important;
 }
-#block-yejiao-2 p {
+#block-yejiao p {
     margin: 0;
 }
+*/
 #user-login-form {
     padding: 3rem;
     background-color: azure;

@@ -34,6 +34,10 @@
 
 {% for field in fields %}
 <div class="swiper-slide">
-  {{ field.content }}
+  <figure>
+    <a href="{{- fields.path.content | striptags -}}">
+      <img class="" src="{{- fields.field_image.content | striptags -}}"></img>
+    </a>
+  </figure>
 </div>
 {% endfor %}

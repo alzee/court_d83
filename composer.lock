@@ -1252,7 +1252,7 @@
         },
         {
             "name": "drupal/permissions_by_term",
-            "version": "1.61.0",
+            "version": "1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/permissions_by_term.git",
