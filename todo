@@ -1,4 +1,4 @@
-permissions_by_term
+permissions_by_term 1.38?
 
 总编辑 查看管理主题 toolbar 管理区块 管理菜单和菜单项 管理内容 node
 业务平台 查看管理主题 toolbar 管理菜单和菜单项 
@@ -13,6 +13,7 @@ swiper width height
 
 责任编辑 显示姓名
 创建文章 new target
+
 审判管理
 栏目按首页排序
 ckeditor 撤销、重做、居中等对齐按钮
