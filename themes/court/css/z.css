@@ -197,7 +197,9 @@ img {
 }
 #block-views-block-shipin-block-1 video {
     width: 100% !important;
+    /*
     height: auto !important;
+    */
 }
 #block-shouyeshipinqukuaixiafangtupian img {
     width: 100%;
