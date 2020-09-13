@@ -1,11 +1,13 @@
 角色
+{{ dump(user.getroles(TRUE)) }}
 permissions_by_term
-责任编辑 显示姓名
 发布时间 权限
+
 新闻中心 点  新闻中心view home-lanmu-block
 swiper width height
 关闭ie清除
 
+责任编辑 显示姓名
 创建文章 new target
 审判管理
 栏目按首页排序
