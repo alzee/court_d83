@@ -1,8 +1,12 @@
-角色
-{{ dump(user.getroles(TRUE)) }}
 permissions_by_term
-发布时间 权限
 
+总编辑 查看管理主题 toolbar 管理区块 管理菜单和菜单项 管理内容 node
+业务平台 查看管理主题 toolbar 管理菜单和菜单项 
+审判管理 查看管理主题 toolbar node
+党建专栏 查看管理主题 toolbar node
+法院文件 查看管理主题 toolbar node
+发布时间 权限
+twig debug: false
 新闻中心 点  新闻中心view home-lanmu-block
 swiper width height
 关闭ie清除

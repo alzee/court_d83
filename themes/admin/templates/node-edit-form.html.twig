@@ -28,12 +28,18 @@
   <div class="layout-region layout-region-node-footer">
     <div class="layout-region-node-footer__content0">
       {{ form.footer }}
+      {#
+      {% set myRoles = user.getroles(TRUE) %}
+      {% if 'administrator' in myRoles or 'zongbianji' in myRoles %}
+      {{ form.created}}
+      {% endif %}
+      #}
       {{ form.actions }}
     </div>
   </div>
 </div>
 {#
-{% for k,v in form.uid %}
+{% for k,v in form %}
 {{ k }}
 {{ v }}
 {% endfor %}
