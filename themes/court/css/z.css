@@ -101,7 +101,7 @@ li.list-group-item a:hover {
 	border-bottom: 6px solid transparent;
 	border-left: 6px solid #003f80;
 }
-li.news-list a::before {
+li.news-list>a::before {
 	content: "";
 	width: 0; 
 	height: 0; 
