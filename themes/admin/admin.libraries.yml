@@ -4,6 +4,11 @@ css:
     theme:
       css/main.css: {}
 
+js:
+  version: VERSION
+  js:
+    js/z.js: {}
+
 jquery1:
   header: true
   version: VERSION
