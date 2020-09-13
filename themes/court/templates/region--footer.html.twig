@@ -4,9 +4,9 @@
 {% endif %}
 
 {% if logged_in %}
-{% set login_link, login_text = 'admin/content', '郧西县人民法院' %}
+{% set login_link, login_text = '/admin/content', '郧西县人民法院' %}
 {% else %}
-{% set login_link, login_text = 'user/login', '郧西县人民法院' %}
+{% set login_link, login_text = '/user/login', '郧西县人民法院' %}
 {% endif %}
 {%
   set links = [
