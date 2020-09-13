@@ -10,14 +10,11 @@ global-js:
   js:
     js/z.js: {}
 
-swiper-css:
+swiper:
   version: VERSION
   css:
     component:
       css/swiper.min.css: {}
-
-swiper-js:
-  version: VERSION
   js:
     js/swiper.min.js: {}
     js/initSwiper.js: {}
