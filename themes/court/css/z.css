@@ -240,9 +240,6 @@ section#dangjian a:hover {
 .swiper-slide figure {
     margin-bottom: 0px;
 }
-#slider .swiper-slide img{
-    height: 401px;
-}
 header.dangjian,
 .dangjian-more a{
     color: red;
