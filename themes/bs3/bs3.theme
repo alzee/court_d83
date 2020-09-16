@@ -1,0 +1,19 @@
+<?php
+
+/*
+function bs3_preprocess_node(&$variables) {
+    $node = $variables['node'];
+    $variables[ 'user_field_name' ] = $node->getOwner()->field_name->value;
+}
+*/
+
+function field_user_format_name_alter(&$name, $account) {
+  // Load the full user account.
+  $account = \Drupal\user\Entity\User::load($account->id());
+  // Get the full name from field_name.
+  $full_name = $account->get('field_name')->value;
+  // If there's a value, set it as the new $name.
+  if (!empty($full_name)) {
+    $name = $full_name;
+  }
+}

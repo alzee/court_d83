@@ -1,0 +1,12 @@
+{% set count = count ? count : 3 %}
+{% set text = '湖北上半年GDP为17480亿元，就业形势总体稳定，农业生产' %}
+
+<ul class="list-group py-3 bg-white {{ ulClass }}">
+{% for i in 1..count %}
+<li class="list-group-item list-group-item-action py-1 border-0">
+<span><a class="text-dark" href="{{ root }}/i.php/node">{{ text }}</a></span>
+{% if isNew %}
+<span class="badge badge-danger new-icon">NEW</span></li>
+{% endif %}
+{% endfor %}
+</ul>

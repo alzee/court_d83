@@ -1,0 +1,31 @@
+<div class="my-5" id="footer">
+{% if content %}
+  {{ content }}
+{% endif %}
+
+{% if logged_in %}
+{% set login_link, login_text = '/admin/content', '郧西县人民法院' %}
+{% else %}
+{% set login_link, login_text = '/user/login', '郧西县人民法院' %}
+{% endif %}
+{%
+  set links = [
+    {href: login_link, text: login_text},
+    {href: 'https://itove.com', text: ''},
+]
+%}
+          <div class="text-align-center">
+          <span>
+          Copyright © 2020
+          </span>
+{% for i in links %}
+            <a class="text-black-50" href="{{ i.href }}">{{ i.text }}</a>    
+{% endfor %}
+<span>
+版权所有 电话：0719-6227472 技术支持：兴为科技
+</span>
+<span>
+<a class="text-black-50" href="/downloads">工具下载</a>    
+</span>
+          </div>
+</div>

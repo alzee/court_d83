@@ -1,0 +1,41 @@
+{% if logged_in %}
+{% set login_link, login_text = 'admin/content', '后台管理' %}
+{% else %}
+{% set login_link, login_text = 'user/login', '登录后台' %}
+{% endif %}
+{%
+  set links = [
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '相关链接'},
+    {href: '#', text: '旧版入口'},
+    {href: login_link, text: login_text},
+]
+%}
+<div class="row mx-0 p-3 news-block">
+  {% set i = 1 %}
+  {% for link in links %}
+  <a class="col text-black-50" href="{{ link.href }}">{{ link.text }}</a>
+  {% if i == (links|length) / 2 %}
+  <div class="w-100"></div>
+  {% endif %}
+  {% set i = i + 1 %}
+  {% endfor %}
+</div>

@@ -1,0 +1,29 @@
+{% set rounded = 'rounded' %}
+
+<div class="rounded overflow-hidden mx-0 py-0 block-title justify-content-between">
+  {% if haveRedBar %}
+  {% set rounded = 'rounded-bottom' %}
+  <div class="bg-danger w-100" style="height: 5px"></div>
+  {% endif %}
+  <div class="row mr-2">
+    <div class="col-auto px-3 title-text-bg {{ rounded }}">
+      {% if not haveRedBar %}
+      <div class=" w-100" style="height: 2.5px"></div>
+      {% endif %}
+      <span class="text-light font-weight-bold"> {{ title }} </span>
+      {% if not haveRedBar %}
+      <div class=" w-100" style="height: 2.5px"></div>
+      {% endif %}
+    </div>
+    <div class="col">
+    </div>
+    <div class="col-auto">
+      {% if not noMore %}
+      <span class="text-primary link-more">更多</span>
+      {% endif %}
+    </div>
+  </div>
+  {#
+  <div class="w-100" style="height: 5px"> </div>
+  #}
+</div>

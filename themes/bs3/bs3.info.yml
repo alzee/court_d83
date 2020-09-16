@@ -1,0 +1,26 @@
+name: Court
+type: theme
+base theme: false
+core_version_requirement: ^8 | ^9
+core: 8.x
+version: VERSION
+libraries:
+  - bs3/global-css
+  - bs3/global-js
+regions:
+  header: '页眉'
+  breadcrumb: '导航路径'
+  banner: '条幅'
+  slider: '幻灯片'
+  content: '内容'
+  content1: '内容1'
+  content1r: '内容1右'
+  content2: '内容2'
+  content2r: '内容2右'
+  content3: '内容3'
+  content4: '内容4'
+  content4r: '内容4右'
+  content5: '内容5'
+  content6: '内容6'
+  links: '链接'
+  footer: '页脚'

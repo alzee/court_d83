@@ -20,33 +20,10 @@
         </div>
       </div>
       <div class="col-3" id="yewupingtai">
-        {{ include('/themes/court/templates/title.html.twig', {title: '业务平台', noMore: 1, haveRedBar: 1}) }}
-        {#
-        <div>
-          <a href="#" class="btn btn-primary mt-1 w-100">法院信息管理系统</a>
-          <a href="#" class="btn btn-primary mt-1 w-100">法院信息管理系统</a>
-          <a href="#" class="btn btn-primary mt-1 w-100">法院信息管理系统</a>
-          <a href="#" class="btn btn-primary mt-1 w-100">法院信息管理系统</a>
-          <a href="#" class="btn btn-primary mt-1 w-100">法院信息管理系统</a>
-        </div>
-        <div class="row">
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-        </div>
-        <div class="row">
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-        </div>
-        <div class="row">
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-          <a class="col btn btn-primary mt-1 mx-1">管理系统</a>
-        </div>
-        #}
+        {{ include('/themes/bs3/templates/title.html.twig', {title: '业务平台', noMore: 1, haveRedBar: 1}) }}
         <div class="">
           {{ page.content1r }}
         </div>
-        {#
-        #}
       </div>
   </section>
 
@@ -57,11 +34,10 @@
         </div>
       </div>
       <div class="col-3">
-        {{ include('/themes/court/templates/title.html.twig', {title: '法院概况', noMore: 1, haveRedBar: 1}) }}
+        {{ include('/themes/bs3/templates/title.html.twig', {title: '法院概况', noMore: 1, haveRedBar: 1}) }}
         {{ page.content2r }}
       </div>
   </section>
-
 
   <section class="row mx-0 my-1" id="pics">
     <div class="col px-0">
@@ -77,7 +53,7 @@
     </div>
 
     <div class="col-3">
-      {{ include('/themes/court/templates/title.html.twig', {title: '视频', noMore: 1, haveRedBar: 1}) }}
+      {{ include('/themes/bs3/templates/title.html.twig', {title: '视频', noMore: 1, haveRedBar: 1}) }}
       <div class="bg-white px-2 py-1 rounded" id="video-list">
       {{ page.content4r }}
       </div>
@@ -92,7 +68,7 @@
 
   <section class="row mx-0 my-1" id="row-8">
     <div class="col px-0">
-      {{ include('/themes/court/templates/title.html.twig', {title: '相关链接', noMore: 1}) }}
+      {{ include('/themes/bs3/templates/title.html.twig', {title: '相关链接', noMore: 1}) }}
       {{ page.links }}
     </div>
   </section>
@@ -102,8 +78,8 @@
 </main>
 {{ page.footer }}
 
-{{ attach_library('court/swiper') }}
-{{ attach_library('court/home-titles-js') }}
+{{ attach_library('bs3/swiper') }}
+{{ attach_library('bs3/home-titles-js') }}
 
 <!--
 	vim:ft=html
