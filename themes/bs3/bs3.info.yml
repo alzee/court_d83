@@ -1,4 +1,4 @@
-name: Court
+name: bs3
 type: theme
 base theme: false
 core_version_requirement: ^8 | ^9
