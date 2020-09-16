@@ -251,6 +251,12 @@ header.dangjian svg {
     font-size: .8em;
     background-color: rgba(255,176,176,.5);
 }
+.dangjian-block li {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
 .home-title-text {
     padding-top: 2.5px;
     padding-bottom: 2.5px;

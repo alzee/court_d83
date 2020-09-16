@@ -25,22 +25,12 @@
     <h3>{{ title }}</h3>
   {% endif %}
 
-  <{{ list.type }} class="list-group" {{ list.attributes }}>
+  <{{ list.type }} class="list-group" {{ list.attributes.addClass('list-group') }}>
 
-
-    {% set i = 1 %}
     {% for row in rows %}
       <li{{ row.attributes.addClass('list-group-item list-group-item-action border-0 d-flex justify-content-between py-2 news-list') }}>
         {{- row.content -}}
-        {{ rows.length }}
       </li>
-      {% if i is divisible by(7) and i != 28 %}
-        <div class="border-top border-secondary m-3" style="height: 1px">
-        <span>
-        </span>
-        </div>
-      {% endif %}
-    {% set i = i+1 %}
     {% endfor %}
 
   </{{ list.type }}>

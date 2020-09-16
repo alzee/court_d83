@@ -25,10 +25,10 @@
     <h3>{{ title }}</h3>
   {% endif %}
 
-  <{{ list.type }}{{ list.attributes }}>
+  <{{ list.type }} class="list-group py-4 bg-white" {{ list.attributes.addClass('list-group py-4 bg-white') }}>
 
     {% for row in rows %}
-      <li{{ row.attributes }}>
+      <li{{ row.attributes.addClass('list-group-item list-group-item-action py-1 border-0') }}>
         {{- row.content -}}
       </li>
     {% endfor %}

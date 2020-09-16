@@ -19,18 +19,18 @@
  */
 #}
 {% if attributes -%}
-  <div{{ attributes }}>
+  <div{{ attributes.addClass('bg-white p-5 rounded') }}>
 {% endif %}
   {% if title %}
     <h3>{{ title }}</h3>
   {% endif %}
 
-  <{{ list.type }}{{ list.attributes }}>
+  <{{ list.type }} class="list-group" {{ list.attributes }}>
 
 
     {% set i = 1 %}
     {% for row in rows %}
-      <li{{ row.attributes }}>
+      <li{{ row.attributes.addClass('list-group-item list-group-item-action border-0 d-flex justify-content-between py-2 news-list') }}>
         {{- row.content -}}
         {{ rows.length }}
       </li>
