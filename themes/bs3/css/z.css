@@ -102,7 +102,7 @@ li.list-group-item a:hover {
 #xinwenzhongxin li:before {
     content: "■";
 }
-#dangjian li a {
+li a {
 	color: #343a40!important;
 }
 #dangjian li a:hover {
@@ -371,6 +371,12 @@ header.dangjian svg {
 .mt-2, .my-2 {
    margin-top: .5em!important
 }
+.mt-3, .my-3 {
+    margin-top: 1em!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1em!important;
+}
 .mt-0, .my-0 {
    margin-top: 0!important
 }
@@ -379,6 +385,9 @@ header.dangjian svg {
 }
 .mt-5, .my-5 {
     margin-top: 3em!important
+}
+.mr-5, .mx-5 {
+    margin-right: 3em!important;
 }
 .mb-0, .my-0 {
    margin-bottom: 0!important
@@ -415,6 +424,12 @@ header.dangjian svg {
 }
 .pr-3, .px-3 {
     padding-right: 1em!important
+}
+.pb-3, .py-3 {
+    padding-bottom: 1em!important;
+}
+.pt-3, .py-3 {
+    padding-top: 1em!important;
 }
 .pt-0, .py-0 {
    padding-top: 0!important
@@ -549,4 +564,35 @@ a:hover {
 }
 .border-bottom {
   border-bottom: 1px solid #dee2e6!important;
+}
+.text-secondary {
+    color: #6c757d!important;
+}
+#block-bs3-local-tasks ul li a {
+    padding: 0;
+}
+#block-bs3-local-tasks ul li {
+    margin: 0;
+}
+#block-bs3-local-tasks {
+    text-align: center;
+}
+#block-bs3-local-tasks ul{
+    display: inline-block;
+}
+#block-bs3-local-tasks ul li:first-Child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+}
+#block-bs3-local-tasks ul li:last-Child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0;
+}
+.list-group>.list-group-item+.list-group-item {
+    border-left-width: 0;
+}
+.h2, h2 {
+    font-size: 2em;
 }
