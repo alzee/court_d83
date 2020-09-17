@@ -103,7 +103,7 @@ li.list-group-item a:hover {
     content: "■";
 }
 li a {
-	color: #343a40!important;
+	color: #343a40;
 }
 #dangjian li a:hover {
 	color: #121416!important;
@@ -604,4 +604,7 @@ a:hover {
 }
 .h2, h2 {
     font-size: 2em;
+}
+.breadcrumb-item a{
+    color: #007bff;
 }
