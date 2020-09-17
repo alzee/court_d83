@@ -503,3 +503,15 @@ header svg {
 .border-top {
     border-top: 1px solid #dee2e6!important
 }
+.pagination {
+    margin: 0;
+}
+.page-link {
+    padding: .5em .75em!important;
+    border-radius: 0!important;
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+}
