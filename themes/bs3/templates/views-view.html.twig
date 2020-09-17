@@ -43,12 +43,12 @@
   {{ title_suffix }}
 
   {% if 'home-lanmu-block' in css_class and header %}
-  <header class="rounded overflow-hidden mx-0 py-0 block-title justify-content-between">
+  <header class="rounded overflow-hidden mx-0 py-0 block-title">
     <div class="row">
-      <div class="col-md-9 px-3 title-text-bg home-title-text rounded">
+      <div class="col-md-4 px-3 text-center title-text-bg home-title-text rounded">
         <span class="text-light font-weight-bold">{{ view.title }}</span>
       </div>
-      <div class="col-md-3 text-right">
+      <div class="text-right">
         <span class="text-primary link-more">
           <a href="{{ header }}">更多<span class="text-danger">></span></a>
         </span>

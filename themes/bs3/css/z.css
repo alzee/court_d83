@@ -369,8 +369,20 @@ header.dangjian svg {
 .mt-0, .my-0 {
    margin-top: 0!important
 }
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important
+}
+.mt-5, .my-5 {
+    margin-top: 3rem!important
+}
 .mb-0, .my-0 {
    margin-bottom: 0!important
+}
+.ml-0, .mx-0 {
+    margin-left: 0!important
+}
+.mr-0, .mx-0 {
+    margin-right: 0!important
 }
 .pl-0, .px-0 {
   padding-left: 0!important
@@ -381,11 +393,17 @@ header.dangjian svg {
 .p-2 {
   padding: .5rem!important
 }
+.p-3 {
+  padding: 1rem!important
+}
 .pl-2, .px-2 {
   padding-left: .5rem!important
 }
 .pr-2, .px-2 {
   padding-right: .5rem!important
+}
+.pr-3, .px-3 {
+    padding-right: 1rem!important
 }
 .pt-0, .py-0 {
    padding-top: 0!important
@@ -447,4 +465,19 @@ header.dangjian svg {
 }
 #block-bs3-fayuangaishu {
   padding: 0 15px;
+}
+.font-weight-bold {
+    font-weight: 700!important
+}
+header .col-md-4 {
+    width: 128px;
+}
+.text-black-50 {
+    color: rgba(0,0,0,.5)!important
+}
+header .link-more {
+    padding-right: 1rem;
+}
+header svg {
+    float: left;
 }

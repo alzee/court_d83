@@ -1,18 +1,18 @@
 {% set rounded = 'rounded' %}
 
-<div class="rounded overflow-hidden mx-0 py-0 block-title justify-content-between">
+<header class="rounded overflow-hidden mx-0 py-0 block-title">
   {% if haveRedBar %}
   {% set rounded = 'rounded-bottom' %}
   <div class="bg-danger w-100" style="height: 5px"></div>
   {% endif %}
   <div class="row mr-2">
-    <div class="col-md-9 px-3 title-text-bg {{ rounded }}">
+    <div class="col-md-4 px-3 text-center title-text-bg {{ rounded }}">
       {% if not haveRedBar %}
-      <div class=" w-100" style="height: 2.5px"></div>
+      <div class="w-100" style="height: 2.5px"></div>
       {% endif %}
       <span class="text-light font-weight-bold"> {{ title }} </span>
       {% if not haveRedBar %}
-      <div class=" w-100" style="height: 2.5px"></div>
+      <div class="w-100" style="height: 2.5px"></div>
       {% endif %}
     </div>
     <div class="col-md-3 text-right">
@@ -24,4 +24,4 @@
   {#
   <div class="w-100" style="height: 5px"> </div>
   #}
-</div>
+</header>
