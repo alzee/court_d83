@@ -1,8 +1,8 @@
 html {
-  font-size: 1rem;
+  font-size: 1em;
 }
 body {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
 	background: linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
 	font-family: Verdana, Arial, "Times New Roman", "SimSun", "宋体", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
@@ -22,7 +22,7 @@ nav#nav-menu li {
 li.list-group-item {
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding: .75rem 1.25rem;
+    padding: .75em 1.25em;
 }
 .lanmu-page li.list-group-item>a {
     max-width: 80%;
@@ -38,7 +38,7 @@ li.list-group-item {
     border: 0;
 }
 .border-top-red {
-	border-top: .4rem solid #dc3545!important;
+	border-top: .4em solid #dc3545!important;
 }
 .link-more {
 	font-size: .7em;
@@ -81,6 +81,10 @@ li.list-group-item a:hover {
 .news-list a {
 	font-size: 1.2em;
 	color: #343a40!important;
+}
+.news-list>span {
+    color: #6c757d!important;
+    float: right;
 }
 .news-list a:hover {
 	color: #121416!important;
@@ -163,7 +167,7 @@ img {
 	max-width: 100%;
 }
 #block-bs3-tiaofu p {
-	margin-bottom: .25rem!important;
+	margin-bottom: .25em!important;
 }
 #slider figcaption {
     bottom: 0;
@@ -189,11 +193,11 @@ img {
 }
 #region-fayuangaishu img,
 #yewupingtai img {
-    border-radius: .25rem!important;
+    border-radius: .25em!important;
     max-width: 100%;
 }
 #yewupingtai img {
-    margin-top: .25rem;
+    margin-top: .25em;
 }
 #block-shouyeshipinqukuaixiafangtupian p,
 #yewupingtai p{
@@ -239,7 +243,7 @@ img {
 }
 #block-views-block-shipin-block-1 li.list-group-item,
 #block-views-block-shipinliebiao-block-1 li.list-group-item {
-	padding: 0.75rem .3rem;
+	padding: 0.75em .3em;
 }
 section#dangjian h2 {
 	color: #dc3545;
@@ -330,10 +334,10 @@ header.dangjian svg {
     width: 48%;
 }
 #user-login-form {
-    padding: 3rem;
+    padding: 3em;
     background-color: azure;
-    border-radius: .5rem;
-    margin-top: 1rem;
+    border-radius: .5em;
+    margin-top: 1em;
 }
 #edit-submit {
     background-color: #28a745;
@@ -352,28 +356,28 @@ header.dangjian svg {
     color: #f8f9fa!important;
 }
 .ml-1, .mx-1 {
-  margin-left: .25rem!important
+  margin-left: .25em!important
 }
 .mr-1, .mx-1 {
-  margin-right: .25rem!important
+  margin-right: .25em!important
 }
 .mt-1, .my-1 {
-   margin-top: .25rem!important
+   margin-top: .25em!important
 }
 .mb-1, .my-1 {
-   margin-bottom: .25rem!important
+   margin-bottom: .25em!important
 }
 .mt-2, .my-2 {
-   margin-top: .5rem!important
+   margin-top: .5em!important
 }
 .mt-0, .my-0 {
    margin-top: 0!important
 }
 .mb-5, .my-5 {
-    margin-bottom: 3rem!important
+    margin-bottom: 3em!important
 }
 .mt-5, .my-5 {
-    margin-top: 3rem!important
+    margin-top: 3em!important
 }
 .mb-0, .my-0 {
    margin-bottom: 0!important
@@ -384,6 +388,9 @@ header.dangjian svg {
 .mr-0, .mx-0 {
     margin-right: 0!important
 }
+.m-3 {
+    margin: 1em!important
+}
 .pl-0, .px-0 {
   padding-left: 0!important
 }
@@ -391,19 +398,22 @@ header.dangjian svg {
   padding-right: 0!important
 }
 .p-2 {
-  padding: .5rem!important
+  padding: .5em!important
 }
 .p-3 {
-  padding: 1rem!important
+  padding: 1em!important
+}
+.p-5 {
+  padding: 3em!important
 }
 .pl-2, .px-2 {
-  padding-left: .5rem!important
+  padding-left: .5em!important
 }
 .pr-2, .px-2 {
-  padding-right: .5rem!important
+  padding-right: .5em!important
 }
 .pr-3, .px-3 {
-    padding-right: 1rem!important
+    padding-right: 1em!important
 }
 .pt-0, .py-0 {
    padding-top: 0!important
@@ -412,16 +422,22 @@ header.dangjian svg {
    padding-bottom: 0!important
 }
 .pt-1, .py-1 {
-   padding-top: .25rem!important
+   padding-top: .25em!important
 }
 .pb-1, .py-1 {
-   padding-bottom: .25rem!important
+   padding-bottom: .25em!important
+}
+.pb-2, .py-2 {
+    padding-bottom: .5em!important
+}
+.pt-2, .py-2 {
+    padding-top: .5em!important
 }
 .pt-4, .py-4 {
-  padding-top: 1.5rem!important
+  padding-top: 1.5em!important
 }
 .pb-4, .py-4 {
-  padding-bottom: 1.5rem!important
+  padding-bottom: 1.5em!important
 }
 #nav-menu{
     border-radius: 0;
@@ -458,7 +474,7 @@ header.dangjian svg {
 }
 .rounded,
 .list-group {
-  border-radius: .25rem;
+  border-radius: .25em;
 }
 .bg-danger {
   background-color: #dc3545!important
@@ -476,8 +492,14 @@ header .col-md-4 {
     color: rgba(0,0,0,.5)!important
 }
 header .link-more {
-    padding-right: 1rem;
+    padding-right: 1em;
 }
 header svg {
     float: left;
+}
+.breadcrumb {
+    padding: .75em 1em
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important
 }

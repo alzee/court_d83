@@ -30,12 +30,12 @@
 
     {% set i = 1 %}
     {% for row in rows %}
-      <li{{ row.attributes.addClass('list-group-item list-group-item-action border-0 d-flex justify-content-between py-2 news-list') }}>
+      <li{{ row.attributes.addClass('list-group-item list-group-item-action border-0 py-2 news-list') }}>
         {{- row.content -}}
         {{ rows.length }}
       </li>
       {% if i is divisible by(7) and i != 28 %}
-        <div class="border-top border-secondary m-3" style="height: 1px">
+        <div class="border-top border-secondary m-3">
         <span>
         </span>
         </div>
