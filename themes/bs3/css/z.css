@@ -102,10 +102,10 @@ li.list-group-item a:hover {
 #xinwenzhongxin li:before {
     content: "■";
 }
-.col li a {
+#dangjian li a {
 	color: #343a40!important;
 }
-.col li a:hover {
+#dangjian li a:hover {
 	color: #121416!important;
 }
 .arrow-right {
@@ -270,6 +270,7 @@ header.dangjian svg {
 .dangjian-more {
     font-size: .8em;
     background-color: rgba(255,176,176,.5);
+    float: right;
 }
 .dangjian-block li {
     display: -ms-flexbox!important;
@@ -531,6 +532,9 @@ header svg {
 .h5, h5 {
     font-size: 1.25em;
 }
+.h4, h4 {
+    font-size: 1.4em;
+}
 .card-title {
     margin-bottom: .75em;
 }
@@ -542,4 +546,7 @@ a:hover {
 }
 .card-link:hover {
     text-decoration: none;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6!important;
 }
