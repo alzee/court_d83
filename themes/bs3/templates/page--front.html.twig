@@ -5,21 +5,21 @@
 <main class="mt-1" id="home">
   {{ page.banner }}
   <section class="row mb-1">
-    <div class="col">
+    <div class="col col-md-6">
       {{ page.slider }}
     </div>
-    <div class="col" id="xinwenzhongxin">
+    <div class="col col-md-6" id="xinwenzhongxin">
       {{ page.content }}
     </div>
   </section>
 
   <section class="row mb-1">
-      <div class="col">
+      <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content1 }}
         </div>
       </div>
-      <div class="col-3" id="yewupingtai">
+      <div class="col-md-3" id="yewupingtai">
         {{ include('/themes/bs3/templates/title.html.twig', {title: '业务平台', noMore: 1, haveRedBar: 1}) }}
         <div class="">
           {{ page.content1r }}
@@ -28,12 +28,12 @@
   </section>
 
   <section class="row mb-1">
-      <div class="col">
+      <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content2 }}
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3">
         {{ include('/themes/bs3/templates/title.html.twig', {title: '法院概况', noMore: 1, haveRedBar: 1}) }}
         {{ page.content2r }}
       </div>
@@ -46,13 +46,13 @@
   </section>
 
   <section class="row" id="aboutus">
-    <div class="col">
+    <div class="col col-md-9 ">
       <div class="row row-cols-2">
           {{ page.content4 }}
       </div>
     </div>
 
-    <div class="col-3">
+    <div class="col-md-3">
       {{ include('/themes/bs3/templates/title.html.twig', {title: '视频', noMore: 1, haveRedBar: 1}) }}
       <div class="bg-white px-2 py-1 rounded" id="video-list">
       {{ page.content4r }}
@@ -73,7 +73,7 @@
     </div>
   </section>
 
-  <section class="border-top-red" style="">
+  <section class="border-top-red row" style="">
   </section>
 </main>
 {{ page.footer }}

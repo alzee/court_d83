@@ -34,7 +34,7 @@
  */
 #}
 {% set heading_id = attributes.id ~ '-menu'|clean_id %}
-<div {{ attributes.addClass('bookmark-menu') }}>
+<div {{ attributes.addClass('bookmark-menu text-right') }}>
   {% block content %}
     {{ content }}
   {% endblock %}

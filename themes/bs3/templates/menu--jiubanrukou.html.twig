@@ -32,16 +32,16 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass("nav justify-content-end") }}>
+      <ul{{ attributes.addClass("nav nav-tabs") }}>
     {% else %}
       <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass("nav-item ml-2") }}>
+      <li{{ item.attributes.addClass("") }}>
 {#
         {{ link(item.title, item.url) }}
 #}
-        <a class="nav-link p-0" href="{{ item.url }}">{{ item.title }}</a>
+        <a class="" href="{{ item.url }}">{{ item.title }}</a>
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}

@@ -28,7 +28,7 @@
   <{{ list.type }} class="list-group" {{ list.attributes }}>
 
     {% for row in rows %}
-      <li{{ row.attributes.addClass('list-group-item list-group-item-action py-1 border-0') }}>
+      <li{{ row.attributes.addClass('list-group-item px-0 py-1 border-0') }}>
         {{- row.content -}}
       </li>
     {% endfor %}
