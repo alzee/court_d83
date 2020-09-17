@@ -515,3 +515,31 @@ header svg {
     border-top-left-radius: .25rem!important;
     border-bottom-left-radius: .25rem!important;
 }
+#search #edit-help-link,
+#search #edit-advanced,
+#search>h2,
+#search #search-form {
+    display: none;
+}
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-body {
+    padding: 1.25em;
+}
+.h5, h5 {
+    font-size: 1.25em;
+}
+.card-title {
+    margin-bottom: .75em;
+}
+a {
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+}
+.card-link:hover {
+    text-decoration: none;
+}
