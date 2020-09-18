@@ -10,6 +10,18 @@ global-js:
   js:
     js/z.js: {}
 
+slick:
+  version: VERSION
+  css:
+    component:
+      css/slick.css: {}
+      css/slick-theme.css: {}
+  js:
+    js/jquery.min.js: {}
+    js/slick.min.js: {}
+    js/initSlick.js: {}
+
+
 swiper:
   version: VERSION
   css:
