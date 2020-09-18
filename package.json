@@ -1,0 +1,28 @@
+{
+  "name": "d83",
+  "version": "1.0.0",
+  "description": "CONTENTS OF THIS FILE ---------------------",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery1": "^1.12.4",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "bootstrap3": "^3.4.1",
+    "swiper": "^4.5.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itove/court_d83.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itove/court_d83/issues"
+  },
+  "homepage": "https://github.com/itove/court_d83#readme"
+}
