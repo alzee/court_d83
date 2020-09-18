@@ -25,3 +25,11 @@
 #nav-menu > UL > LI:first-child A {
     margin: 0;
 }
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.text-black-50 {
+    color: #6c757d;
+}
