@@ -2,9 +2,9 @@
 ;(function(){
     var d = document.getElementById('block-bs3-jiubanrukou');
     if (d) {
-        var i = d.firstElementChild.firstElementChild;
-        i.firstElementChild.href="#";
-        i.addEventListener('click', addFavorite);
+        var i = d.querySelector('li a');
+        i.setAttribute('href', 'javascript:void(0)');
+        i.onclick = addFavorite; // use onclick instead of addEventListenner due to ie8/9
     }
 })();
 
@@ -25,7 +25,7 @@ function addFavorite() {
 ;(function (){
     var i = document.getElementById('user-login-form');
     if(i){
-    document.getElementById('edit-name').placeholder= "请输入账号";
-    document.getElementById('edit-pass').placeholder= "请输入密码";
+    document.getElementById('edit-name').setAttribute('placeholder', "请输入账号");
+    document.getElementById('edit-pass').setAttribute('placeholder', "请输入密码");
     }
 })();
