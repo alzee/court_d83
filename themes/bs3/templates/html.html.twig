@@ -10,10 +10,15 @@
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token }}">
     <js-placeholder token="{{ placeholder_token }}">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="/themes/bs3/css/ie8.css"/>
+    <![endif]-->
   </head>
-  <body class="container py-1">
+  <body>
     {{ page_top }}
+    <div class="container py-1">
     {{ page }}
+    </div>
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token | raw }}">
   </body>

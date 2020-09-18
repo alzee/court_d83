@@ -1,0 +1,27 @@
+.container {
+    width: 1170px;
+}
+.col-md-9 {
+    width: 75%;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-1 {
+    width: 8.33333333%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.nav-justified > LI {
+    display: table-cell;
+}
+#nav-menu > UL > LI:first-child A {
+    margin: 0;
+}

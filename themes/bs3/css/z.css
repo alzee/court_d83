@@ -637,3 +637,6 @@ a:hover {
 .slick-dots {
     bottom: 0;
 }
+.slick-list {
+    z-index: 0;
+}
