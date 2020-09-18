@@ -169,7 +169,7 @@ img {
 #block-bs3-tiaofu p {
 	margin-bottom: .25em!important;
 }
-#slider figcaption {
+.slick1 figcaption {
     bottom: 0;
     background-color: rgba(78,198,255,.6);
     height: 3em;
@@ -229,17 +229,13 @@ img {
   width: 100%;
   height: 114px;
 }
-#slider2 figcaption {
+.slick2 figcaption {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: .3em 1em;
 	color: #6c757d;
 	font-size: .9em;
-}
-#slider2 .swiper-button-next,
-#slider2 .swiper-button-prev {
-	top: 37%;
 }
 #block-views-block-shipin-block-1 li.list-group-item,
 #block-views-block-shipinliebiao-block-1 li.list-group-item {
@@ -607,4 +603,14 @@ a:hover {
 }
 .breadcrumb-item a{
     color: #007bff;
+}
+.slick-prev {
+    left: 0;
+    z-index: 1;
+}
+.slick-next {
+    right: 0;
+}
+.slick-dots {
+    bottom: 0;
 }

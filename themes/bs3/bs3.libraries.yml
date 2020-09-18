@@ -14,13 +14,12 @@ slick:
   version: VERSION
   css:
     component:
-      css/slick.css: {}
-      css/slick-theme.css: {}
+      slick/slick.css: {}
+      slick/slick-theme.css: {}
   js:
     js/jquery.min.js: {}
-    js/slick.min.js: {}
+    slick/slick.min.js: {}
     js/initSlick.js: {}
-
 
 swiper:
   version: VERSION
