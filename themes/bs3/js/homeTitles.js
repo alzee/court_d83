@@ -24,5 +24,5 @@ function boldTitle() {
 window.onload = function(){
   boldTitle();
   newBadge();
-  initSwiper();
+  initSlick();
 };
