@@ -1,5 +1,6 @@
+// 加入收藏 事件
 ;(function(){
-    var d = document.getElementById('block-jiubanrukou');
+    var d = document.getElementById('block-bs3-jiubanrukou');
     if (d) {
         var i = d.firstElementChild.firstElementChild;
         i.firstElementChild.href="#";
@@ -11,11 +12,12 @@ function addFavorite() {
     window.external.AddFavorite(location.href, document.title);
 }
 
+// 复制 返回编辑状态 链接
 ;(function (){
     var i = document.getElementById('node-preview-form-select');
     if (i) {
         var a = document.getElementById('edit-backlink');
-        var t = document.getElementById('block-court-page-title');
+        var t = document.getElementById('block-bs3-page-title');
         document.querySelector('main').insertBefore(a.cloneNode(true), t);
     }
 })();

@@ -2,7 +2,7 @@ function newBadge() {
 	var date = document.getElementsByClassName('date');
 	var now = new Date;
 	var badge = document.createElement('img');
-	badge.src= "themes/court/images/new.gif";
+	badge.src= "themes/bs3/images/new.gif";
 	for(var i = 0; i < date.length; i++){
 		var then = new Date(date[i].innerText.trim().replace('+0800', ''));
 		var hours = (now - then) / 3600000;
