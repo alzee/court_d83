@@ -103,8 +103,11 @@ li.list-group-item a:hover {
 	color: #343a40!important;
 }
 .news-list>span {
-    color: #6c757d!important;
     float: right;
+}
+.news-list>span,
+.news-list>span>a {
+    color: #6c757d!important;
 }
 .news-list a:hover {
 	color: #121416!important;
@@ -122,7 +125,8 @@ li.list-group-item a:hover {
 #xinwenzhongxin li:before {
     content: "■";
 }
-li a {
+li a,
+li a:hover {
 	color: #343a40;
 }
 #dangjian li a:hover {
@@ -194,7 +198,7 @@ img {
 }
 .slick1 figcaption {
     bottom: 0;
-    background-color: rgba(78,198,255,.6);
+    background-color: #4ec6ff;
     height: 3em;
 }
 .swiper-pagination.swiper-pagination-bullets {
@@ -288,8 +292,10 @@ header.dangjian svg {
 }
 .dangjian-more {
     font-size: .8em;
-    background-color: rgba(255,176,176,.5);
     float: right;
+    /*
+    background-color: #ffb0b0;
+    */
 }
 .dangjian-block li {
     display: -ms-flexbox!important;
@@ -532,8 +538,9 @@ header.dangjian svg {
 header .col-md-4 {
     width: 128px;
 }
-.text-black-50 {
-    color: rgba(0,0,0,.5)!important
+.text-black-50,
+#footer a.text-black-50:hover {
+    color: #6c757d;
 }
 header .link-more {
     padding-right: 1em;
@@ -566,7 +573,7 @@ header svg {
     display: none;
 }
 .card {
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid #f1f1f1;
     border-radius: .25rem;
 }
 .card-body {
@@ -639,4 +646,10 @@ a:hover {
 }
 .slick-list {
     z-index: 0;
+}
+.pagination > li > a {
+    color: #6c757d;
+}
+#block-bs3-jiubanrukou li a {
+    color: #6c757d;
 }
