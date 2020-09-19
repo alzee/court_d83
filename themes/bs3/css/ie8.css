@@ -30,3 +30,12 @@
     width: auto;
     vertical-align: middle;
 }
+.block-title .col-md-4 {
+    width: 128px;
+}
+.block-title .link-more {
+    padding-right: 1em;
+}
+.block-title .row {
+    padding: 0 3px;
+}
