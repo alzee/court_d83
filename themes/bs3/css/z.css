@@ -666,8 +666,11 @@ a:hover {
 }
 .slick-dots li button:before {
     font-size: 10px;
-    color: ##676767;
+    color: #9c9c9c;
     opacity: unset;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    color: #676767;
 }
 .slick-dots li.slick-active button:before {
     color: #0c5988;
