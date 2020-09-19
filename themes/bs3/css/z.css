@@ -504,8 +504,8 @@ header.dangjian svg {
     border-radius: 0;
     border: none;
 }
-#nav-menu>ul>li:first-child a {
-  margin: 0 -15px;
+.nav-justified > li {
+    width: auto;
 }
 .nav>li>a:focus, .nav>li>a:hover{
     background-color: transparent;
