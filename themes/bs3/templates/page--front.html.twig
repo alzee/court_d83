@@ -4,16 +4,16 @@
   {{ page.breadcrumb }}
 <main class="mt-1" id="home">
   {{ page.banner }}
-  <section class="row mb-1">
+  <div class="row mb-1">
     <div class="col col-md-6">
       {{ page.slider }}
     </div>
     <div class="col col-md-6" id="xinwenzhongxin">
       {{ page.content }}
     </div>
-  </section>
+  </div>
 
-  <section class="row mb-1">
+  <div class="row mb-1">
       <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content1 }}
@@ -25,9 +25,9 @@
           {{ page.content1r }}
         </div>
       </div>
-  </section>
+  </div>
 
-  <section class="row mb-1">
+  <div class="row mb-1">
       <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content2 }}
@@ -37,15 +37,15 @@
         {{ include('/themes/bs3/templates/title.html.twig', {title: '法院概况', noMore: 1, haveRedBar: 1}) }}
         {{ page.content2r }}
       </div>
-  </section>
+  </div>
 
-  <section class="row mx-0 my-1" id="pics">
+  <div class="row mx-0 my-1" id="pics">
     <div class="col px-0">
       {{ page.content3 }}
     </div>
-  </section>
+  </div>
 
-  <section class="row" id="aboutus">
+  <div class="row" id="aboutus">
     <div class="col col-md-9 ">
       <div class="row row-cols-2">
           {{ page.content4 }}
@@ -58,23 +58,23 @@
       {{ page.content4r }}
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="row mx-0 my-1" id="row-7">
+  <div class="row mx-0 my-1" id="row-7">
     <div class="col px-0">
       {{ page.content5 }}
     </div>
-  </section>
+  </div>
 
-  <section class="row mx-0 my-1" id="row-8">
+  <div class="row mx-0 my-1" id="row-8">
     <div class="col px-0">
       {{ include('/themes/bs3/templates/title.html.twig', {title: '相关链接', noMore: 1}) }}
       {{ page.links }}
     </div>
-  </section>
+  </div>
 
-  <section class="border-top-red" style="">
-  </section>
+  <div class="border-top-red">
+  </div>
 </main>
 {{ page.footer }}
 

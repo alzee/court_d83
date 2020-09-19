@@ -11,9 +11,6 @@ body {
   background: linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afe4ff",endColorstr="#e9f9ff",GradientType=1);
 }
-nav#nav-menu {
-    background-color: #1585b7;
-}
 nav#nav-menu li {
   padding-left: 0;
   padding-right: 0;
@@ -271,6 +268,7 @@ img {
 #block-views-block-shipinliebiao-block-1 li.list-group-item {
 	padding: 0.75em .3em;
 }
+/*
 section#dangjian h2 {
 	color: #dc3545;
     border-bottom: #dc3545 solid;
@@ -283,14 +281,15 @@ section#dangjian h2:after {
 section#dangjian a:hover {
 	text-decoration: none;
 }
+*/
 .swiper-slide figure {
     margin-bottom: 0px;
 }
-header.dangjian,
+.dangjian,
 .dangjian-more a{
     color: red;
 }
-header.dangjian svg {
+.dangjian svg {
   transform: scaleX(0.6);
 }
 .dangjian-more {
@@ -546,7 +545,7 @@ header.dangjian svg {
 .font-weight-bold {
     font-weight: 700!important
 }
-header .col-md-4 {
+.block-title .col-md-4 {
     width: 128px;
 }
 .text-black-50,
@@ -681,4 +680,7 @@ a:hover {
 }
 div#nav-date {
     color: #1585b7;
+}
+#search-bar .btn {
+    background-color: #1585b7;
 }
