@@ -14,15 +14,20 @@ libraries-override:
   core/drupal.active-link: false
   core/drupal.ajax: false
   core/drupal.announce: false
+  core/drupal.form: false
+  core/drupal.debounce: false
+  node/drupal.node.preview: false
   core/underscore: false
   core/domready: false
   core/drupal.batch: false
+  core/jquery: bs3/jquery1
   core/jquery.once: false
   core/jquery.joyride: false
   core/jquery.cookie: false
   toolbar/toolbar: false
   toolbar/toolbar.escapeAdmin: false
   tour/tour: false
+  history/mark-as-read: false
 regions:
   header: '页眉'
   breadcrumb: '导航路径'

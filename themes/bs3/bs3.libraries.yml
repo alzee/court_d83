@@ -20,7 +20,7 @@ slick:
     slick/slick.min.js: {}
     js/initSlick.js: {}
   dependencies:
-    - core/jquery
+    - bs3/jquery1
 
 swiper:
   version: VERSION
@@ -34,4 +34,9 @@ swiper:
 home-titles-js:
   version: VERSION
   js:
-    js/homeTitles.js: {attributes: {defer: true}}
+    js/homeTitles.js: {}
+
+jquery1:
+  version: VERSION
+  js:
+    js/jquery.min.js: {}
