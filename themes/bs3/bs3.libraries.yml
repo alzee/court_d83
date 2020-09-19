@@ -17,9 +17,10 @@ slick:
       slick/slick.css: {}
       slick/slick-theme.css: {}
   js:
-    js/jquery.min.js: {}
     slick/slick.min.js: {}
     js/initSlick.js: {}
+  dependencies:
+    - core/jquery
 
 swiper:
   version: VERSION

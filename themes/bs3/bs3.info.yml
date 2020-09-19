@@ -7,6 +7,22 @@ version: VERSION
 libraries:
   - bs3/global-css
   - bs3/global-js
+libraries-override:
+  core/drupal: false
+  core/backbone: false
+  core/drupalSettings: false
+  core/drupal.active-link: false
+  core/drupal.ajax: false
+  core/drupal.announce: false
+  core/underscore: false
+  core/domready: false
+  core/drupal.batch: false
+  core/jquery.once: false
+  core/jquery.joyride: false
+  core/jquery.cookie: false
+  toolbar/toolbar: false
+  toolbar/toolbar.escapeAdmin: false
+  tour/tour: false
 regions:
   header: '页眉'
   breadcrumb: '导航路径'
