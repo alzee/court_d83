@@ -30,3 +30,6 @@
 .html5media-video-fallback {
     margin: auto;
 }
+.header img {
+    float: left;
+}
