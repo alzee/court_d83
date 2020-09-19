@@ -372,14 +372,22 @@ header.dangjian svg {
     background-color: #28a745;
     color: #fff;
 }
+.site-brand {
+    display: inline-block;
+}
 .site-brand a:hover {
     text-decoration: none;
 }
+.site-brand a{
+    float: left;
+}
 .site-brand img {
     width: 75px;
+    float: left;
 }
 .site-brand h1{
-    margin-bottom: 0;
+    margin: 0;
+    line-height: 80px;
 }
 .text-light {
     color: #f8f9fa!important;
