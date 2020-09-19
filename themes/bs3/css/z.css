@@ -9,7 +9,6 @@ body {
   background: -moz-linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   background: -webkit-linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   background: linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afe4ff",endColorstr="#e9f9ff",GradientType=1);
 }
 #nav-menu li {
   padding-left: 0;
@@ -20,7 +19,6 @@ body {
     background: -moz-linear-gradient(90deg, rgba(140,216,255,1) 0%, rgba(187,242,255,1) 75%);
     background: -webkit-linear-gradient(90deg, rgba(140,216,255,1) 0%, rgba(187,242,255,1) 75%);
     background: linear-gradient(90deg, rgba(140,216,255,1) 0%, rgba(187,242,255,1) 75%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8cd8ff",endColorstr="#bbf2ff",GradientType=1);
     font-size: 1.4em;
     padding: 0.3em 0;
 }
@@ -66,14 +64,12 @@ figure.col{
     background: -moz-linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 50%, rgba(24,147,212,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 50%, rgba(24,147,212,1) 100%);
     background: linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 50%, rgba(24,147,212,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1893d4",endColorstr="#1893d4",GradientType=1);
 }
 #nav-menu .nav-item:hover{
     background: rgb(86,187,241);
     background: -moz-linear-gradient(180deg, rgba(86,187,241,1) 0%, rgba(24,147,212,1) 50%, rgba(86,187,241,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(86,187,241,1) 0%, rgba(24,147,212,1) 50%, rgba(86,187,241,1) 100%);
     background: linear-gradient(180deg, rgba(86,187,241,1) 0%, rgba(24,147,212,1) 50%, rgba(86,187,241,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#56bbf1",endColorstr="#56bbf1",GradientType=1);
 }
 a.text-light:hover {
 	color: white !important;
@@ -83,7 +79,6 @@ a.text-light:hover {
     background: -moz-linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 35%, rgba(171,227,255,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 35%, rgba(171,227,255,1) 100%);
     background: linear-gradient(180deg, rgba(24,147,212,1) 0%, rgba(21,105,157,1) 35%, rgba(171,227,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1893d4",endColorstr="#abe3ff",GradientType=1);
 }
 .nav-link {
 	font-size: 1.2em;
