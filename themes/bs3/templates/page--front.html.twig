@@ -4,16 +4,16 @@
   {{ page.breadcrumb }}
 <main class="mt-1" id="home">
   {{ page.banner }}
-  <div class="row mb-1">
+  <section class="row mb-1">
     <div class="col col-md-6">
       {{ page.slider }}
     </div>
     <div class="col col-md-6" id="xinwenzhongxin">
       {{ page.content }}
     </div>
-  </div>
+  </section>
 
-  <div class="row mb-1">
+  <section class="row mb-1">
       <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content1 }}
@@ -25,53 +25,53 @@
           {{ page.content1r }}
         </div>
       </div>
-  </div>
+  </section>
 
-  <div class="row mb-1">
+  <section class="row mb-1">
       <div class="col col-md-9">
         <div class="row row-cols-2">
           {{ page.content2 }}
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" id="fayuangaishu">
         {{ include('/themes/bs3/templates/title.html.twig', {title: '法院概况', noMore: 1, haveRedBar: 1}) }}
         {{ page.content2r }}
       </div>
-  </div>
+  </section>
 
-  <div class="row mx-0 my-1" id="pics">
+  <section class="row mx-0 my-1" id="tushuofayuan">
     <div class="col px-0">
       {{ page.content3 }}
     </div>
-  </div>
+  </section>
 
-  <div class="row" id="aboutus">
+  <section class="row">
     <div class="col col-md-9 ">
       <div class="row row-cols-2">
           {{ page.content4 }}
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3" id="shipin">
       {{ include('/themes/bs3/templates/title.html.twig', {title: '视频', noMore: 1, haveRedBar: 1}) }}
       <div class="bg-white px-2 py-1 rounded" id="video-list">
       {{ page.content4r }}
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="row mx-0 my-1" id="row-7">
+  <section class="row mx-0 my-1" id="sheyingzhanlan">
     <div class="col px-0">
       {{ page.content5 }}
     </div>
-  </div>
+  </section>
 
-  <div class="row mx-0 my-1" id="row-8">
+  <section class="row mx-0 my-1" id="xiangguanlianjie">
     <div class="col px-0">
       {{ include('/themes/bs3/templates/title.html.twig', {title: '相关链接', noMore: 1}) }}
       {{ page.links }}
     </div>
-  </div>
+  </section>
 
   <div class="border-top-red">
   </div>

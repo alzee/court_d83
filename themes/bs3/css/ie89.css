@@ -1,0 +1,26 @@
+.title-text-bg {
+    background: none;
+}
+#nav-menu ul {
+    background: no-repeat url("/themes/bs3/images/nav_header_bg.png");
+}
+.block-title {
+    background: no-repeat url("/themes/bs3/images/lanmu__header_bg.png");
+}
+#xinwenzhongxin .block-title {
+    background: no-repeat url("/themes/bs3/images/xinwenzhongxin__header_bg.png");
+}
+#block-bs3-views-block-tongzhi-block-1 .block-title,
+#block-bs3-views-block-gonggao-block-1 .block-title {
+    background: no-repeat url("/themes/bs3/images/tongzhi_gonggao__header_bg.png");
+}
+#yewupingtai .block-title .row,
+#fayuangaishu .blcok-title .row,
+#shipin .blcok-title .row{
+    background: no-repeat url("/themes/bs3/images/sidebar__header_bg.png");
+}
+#tushuofayuan .block-title,
+#sheyingzhanlan .block-title,
+#xiangguanlianjie .block-title {
+    background: no-repeat url("/themes/bs3/images/long__header_bg.png");
+}

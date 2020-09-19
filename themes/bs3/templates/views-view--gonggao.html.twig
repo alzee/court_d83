@@ -42,8 +42,7 @@
   {{ title }}
   {{ title_suffix }}
 
-  {% if 'home-lanmu-block' in css_class %}
-  <header class="rounded overflow-hidden mx-0 py-0 block-title">
+  <div class="rounded overflow-hidden mx-0 py-0 block-title header">
     <div class="row mr-2">
       <div class="col-md-4 px-3 rounded home-title-text title-text-no-bg">
 <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-journal-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -59,13 +58,7 @@
         </span>
       </div>
     </div>
-  </header>
-  {% elseif header %}
-  <header class="row justify-content-between border-bottom px-4">
-    <span><h4 class="dangjian-title pl-2">{{ view.title }}</h4></span>
-    <span><a class="dangjian-more text-secondary" href="{{ header }}">更多></a></span>
-  </header>
-  {% endif %}
+  </div>
 
   {{ exposed }}
   {{ attachment_before }}

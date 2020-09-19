@@ -547,10 +547,10 @@ section#dangjian a:hover {
 #footer a.text-black-50:hover {
     color: #6c757d;
 }
-header .link-more {
+.header .link-more {
     padding-right: 1em;
 }
-header svg {
+.header svg {
     float: left;
 }
 .breadcrumb {
@@ -678,4 +678,7 @@ div#nav-date {
 }
 #search-bar .btn {
     background-color: #1585b7;
+}
+.text-danger {
+    color: #dc3545!important;
 }
