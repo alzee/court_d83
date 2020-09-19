@@ -11,7 +11,7 @@ body {
   background: linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afe4ff",endColorstr="#e9f9ff",GradientType=1);
 }
-nav#nav-menu li {
+#nav-menu li {
   padding-left: 0;
   padding-right: 0;
 }
