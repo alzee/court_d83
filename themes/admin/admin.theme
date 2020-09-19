@@ -11,19 +11,3 @@ function admin_form_node_form_alter(&$form, \Drupal\Core\Form\FormStateInterface
 function admin_file_upload_help(&$variables){
 	unset($variables['description']);
 }
-
-/*
-function admin_text_format_wrapper($variables) {
-}
-*/
-
-function field_user_format_name_alter(&$name, $account) {
-  // Load the full user account.
-  $account = \Drupal\user\Entity\User::load($account->id());
-  // Get the full name from field_name.
-  $full_name = $account->get('field_name')->value;
-  // If there's a value, set it as the new $name.
-  if (!empty($full_name)) {
-    $name = $full_name;
-  }
-}

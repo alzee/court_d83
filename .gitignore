@@ -10,7 +10,7 @@ example.gitignore
 .htaccess
 index.php
 LICENSE.txt
-modules/
+modules/contrib/
 profiles/
 README.txt
 robots.txt
