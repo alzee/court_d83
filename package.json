@@ -5,11 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "jquery1": "^1.12.4",
     "bootstrap-icons": "^1.0.0-alpha5",
     "bootstrap3": "^3.4.1",
-    "swiper": "^4.5.1",
-    "slick-carousel": "^1.8.1"
+    "html5media": "^1.2.1",
+    "jquery1": "^1.12.4",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^4.5.1"
   },
   "devDependencies": {},
   "scripts": {
