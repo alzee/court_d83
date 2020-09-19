@@ -189,12 +189,21 @@ img {
 }
 .slick1 figcaption {
     bottom: 0;
-    /*
     background-color: #4ec6ff;
-    */
-    height: 3em;
+    height: 2.5em;
     color: #f8f9fa;
     font-weight: 700;
+    line-height: 2.5em;
+    text-align: left;
+    padding-left: 1em;
+    opacity: .8;
+}
+.slick1 figcaption span {
+    max-width: 60%;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .swiper-pagination.swiper-pagination-bullets {
     height: 3em;
@@ -647,7 +656,8 @@ a:hover {
     right: 0;
 }
 .slick-dots {
-    bottom: 0;
+    bottom: .55em;
+    text-align: right;
 }
 .slick-list {
     z-index: 0;
