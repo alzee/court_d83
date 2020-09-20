@@ -9,6 +9,7 @@ body {
   background: -moz-linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   background: -webkit-linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
   background: linear-gradient(94deg, rgba(175,228,255,1) 25%, rgba(233,249,255,1) 67%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afe4ff",endColorstr="#e9f9ff",GradientType=1);
 }
 #nav-menu li {
   padding-left: 0;
