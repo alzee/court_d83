@@ -1,3 +1,5 @@
+##### todo
+make sure it's php 7.3
 enable showname
 check content page sorting
 translate Short description for the visually impaired
@@ -9,6 +11,8 @@ taxo view publish html wrapper span
 shipin view 264.5 150
 twig debug: false
 
+
+##### done
 img alt not required
 download page view path /downloads html列表 css
 permissions_by_term 1.32 匿名用户
@@ -21,10 +25,8 @@ permissions_by_term 1.32 匿名用户
 新闻中心 点  新闻中心view home-lanmu-block
 swiper width height
 关闭浏览器清除cookie cookie_lifetime: 0
-
 责任编辑 显示姓名
 创建文章 new target
-
 审判管理
 栏目按首页排序
 ckeditor 撤销、重做、居中等对齐按钮
