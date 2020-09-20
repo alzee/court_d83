@@ -34,10 +34,10 @@
 
 {% for field in fields %}
 <div>
-  <figure>
+  <div class="figure">
     <a href="{{- fields.path.content | striptags -}}">
       <img class="" src="{{- fields.field_image.content | striptags -}}"></img>
     </a>
-  </figure>
+  </div>
 </div>
 {% endfor %}

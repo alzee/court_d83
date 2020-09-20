@@ -32,14 +32,14 @@
  */
 #}
 <div>
-  <figure>
+  <div class="figure">
     <a href="{{- fields.path.content | striptags -}}">
       <img class="" src="{{- fields.field_image.content | striptags -}}"></img>
     </a>
-    <figcaption class="text-center position-absolute w-100">
+    <div class="text-center position-absolute w-100 figcaption">
     <span>
     {{- fields.title.content | striptags -}}
     </span>
-    </figcaption>
-  </figure>
+    </div>
+  </div>
 </div>
