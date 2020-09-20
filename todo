@@ -1,19 +1,16 @@
-img alt not required
-
 enable showname
 check content page sorting
 translate Short description for the visually impaired
 tushuofayuan sheyingzhanlan image width 188
 yewupingtai a height line-height
-
 uninstall Contextual Links and quick edit
 check taxo view search page and download view pager
 taxo view publish html wrapper span
 shipin view 264.5 150
 twig debug: false
 
+img alt not required
 download page view path /downloads html列表 css
-
 permissions_by_term 1.32 匿名用户
 总编辑 查看管理主题 toolbar 管理区块 管理菜单和菜单项 管理内容 node
 业务平台 查看管理主题 toolbar 管理菜单和菜单项 

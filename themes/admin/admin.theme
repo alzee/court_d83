@@ -11,3 +11,13 @@ function admin_form_node_form_alter(&$form, \Drupal\Core\Form\FormStateInterface
 function admin_file_upload_help(&$variables){
 	unset($variables['description']);
 }
+
+/**
+* Implements hook_form_FORM_ID_alter().
+*
+* Disable the required 'Alternative text' field in the CKEditor's image dialog.
+*/
+function admin_form_editor_image_dialog_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  //unset($form['attributes']['alt']);
+  $form['attributes']['alt']['#required'] = FALSE;
+}
