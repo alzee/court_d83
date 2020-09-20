@@ -126,6 +126,9 @@ li a:hover {
 #dangjian li .date {
     float: right;
 }
+.slick-arrow {
+    z-index: -1;
+}
 .arrow-right {
 	width: 0; 
 	height: 0; 
@@ -650,7 +653,6 @@ a:hover {
 }
 .slick-prev {
     left: 0;
-    z-index: 1;
 }
 .slick-next {
     right: 0;
