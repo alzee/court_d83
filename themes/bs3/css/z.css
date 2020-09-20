@@ -666,6 +666,7 @@ a:hover {
 }
 div#nav-date {
     color: #1585b7;
+    line-height: 34px;
 }
 #search-bar .btn {
     background-color: #1585b7;
