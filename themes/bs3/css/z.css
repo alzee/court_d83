@@ -28,12 +28,12 @@ li.list-group-item {
     white-space: nowrap;
     padding: .75em 1.25em;
 }
-.lanmu-page li.list-group-item>a {
+.node-list li.list-group-item>a {
     max-width: 80%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    display: block;
+    display: inline-block;
 }
 .news-block{
     background-color: #fff;
