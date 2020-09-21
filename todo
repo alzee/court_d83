@@ -1,18 +1,19 @@
 ##### todo
-make sure it's php 7.3
-enable showname
-check content page sorting
-translate Short description for the visually impaired
-tushuofayuan sheyingzhanlan image width 188 and show item 12
 yewupingtai a height line-height
-uninstall Contextual Links and quick edit
-check taxo view search page and download view pager
-taxo view publish html wrapper span
-shipin view 264.5 150
 twig debug: false
 
 
 ##### done
+remove all view class names
+shipin view 264.5 150
+tushuofayuan sheyingzhanlan image width 188 and show item 12
+taxo view publish html wrapper span
+check taxo view search page and download view pager
+uninstall Contextual Links and quick edit
+translate Short description for the visually impaired
+check content page sorting
+enable showname
+make sure it's php 7.3
 img alt not required
 download page view path /downloads html列表 css
 permissions_by_term 1.32 匿名用户
