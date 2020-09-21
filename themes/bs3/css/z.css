@@ -240,9 +240,9 @@ img {
     color: #6c757d!important;
     margin-bottom: 0px;
 }
-#block-fayuangaishu p{
+#block-bs3-fayuangaishu p{
     text-align: justify;
-    height: 194px;
+    height: 240px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
