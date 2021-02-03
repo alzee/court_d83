@@ -6,3 +6,12 @@ function bs3_preprocess_node(&$variables) {
     $variables[ 'user_field_name' ] = $node->getOwner()->field_name->value;
 }
 */
+
+// This stops the block being cache
+// https://drupal.stackexchange.com/a/253372/102327
+function bs3_preprocess_block(&$vars) {
+  dump($vars);
+  if($vars['derivative_plugin_id'] == 'bs3-search') {
+    $vars['#cache']['max-age'] = 0;
+  }
+}
