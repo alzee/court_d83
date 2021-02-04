@@ -334,7 +334,7 @@ img {
     color: #6c757d;
 }
 .links {
-    font-size: .7em;
+    font-size: .9em;
 }
 .yewupingtai1 {
     font-size: .9em;
@@ -441,6 +441,9 @@ img {
 }
 .p-3 {
   padding: 1em!important
+}
+#xiangguanlianjie .p-3{
+  padding: .8em .2em!important
 }
 .p-5 {
   padding: 3em!important
