@@ -1,0 +1,28 @@
+{% set rounded = 'rounded' %}
+
+<div class="rounded overflow-hidden mx-0 py-0 block-title header">
+  {% if haveRedBar %}
+  {% set rounded = 'rounded-bottom' %}
+  <div class="bg-danger w-100" style="height: 5px"></div>
+  {% endif %}
+  <div class="row mr-2">
+    <div class="col-md-4 text-center title-text-bg {{ rounded }}">
+      {% if not haveRedBar %}
+      <div class="w-100" style="height: 2.5px"></div>
+      {% endif %}
+      <span class="text-light font-weight-bold"> {{ title }} </span>
+      {% if not haveRedBar %}
+      <div class="w-100" style="height: 2.5px"></div>
+      {% endif %}
+    </div>
+    <div class="text-right link-more-under-redbar">
+    <span class="text-primary link-more">
+      <a href="./yingshanghuanjing">更多<span class="text-danger">></span>
+      </a>
+      </span>
+    </div>
+  </div>
+  {#
+  <div class="w-100" style="height: 5px"> </div>
+  #}
+</div>

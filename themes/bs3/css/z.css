@@ -242,7 +242,7 @@ img {
 }
 #block-bs3-fayuangaishu p{
     text-align: justify;
-    height: 240px;
+    height: 219px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -678,4 +678,7 @@ div#nav-date {
 }
 .text-danger {
     color: #dc3545!important;
+}
+.link-more-under-redbar{
+  margin-top: -3px;
 }

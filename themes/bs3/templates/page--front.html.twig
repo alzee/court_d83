@@ -39,6 +39,18 @@
       </div>
   </section>
 
+  <section class="row mb-1">
+      <div class="col col-md-9">
+        <div class="row row-cols-2">
+          {{ page.content7 }}
+        </div>
+      </div>
+      <div class="col-md-3" id="fayuangaishu">
+        {{ include('/themes/bs3/templates/title7r.html.twig', {title: '营商环境', noMore: 0, haveRedBar: 1}) }}
+        {{ page.content7r }}
+      </div>
+  </section>
+
   <section class="row mx-0 my-1" id="tushuofayuan">
     <div class="col px-0">
       {{ page.content3 }}

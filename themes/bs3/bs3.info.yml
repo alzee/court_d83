@@ -38,6 +38,8 @@ regions:
   content1r: '内容1右'
   content2: '内容2'
   content2r: '内容2右'
+  content7: '内容7'
+  content7r: '内容7右'
   content3: '内容3'
   content4: '内容4'
   content4r: '内容4右'
