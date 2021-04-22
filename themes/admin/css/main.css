@@ -75,3 +75,6 @@ fieldset#edit-field-tags--wrapper .form-item {
 #edit-created-0-value--description{
     display: none;
 }
+#edit-field-fujian table thead{
+    display: none;
+}
